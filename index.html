@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NH Token Project Overview</title>
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="Polygon tokenlist/Assets/0xf930cf4150f7cb1108b30df610f07188fd794398/logo.png" />
+
   <style>
     body {
       margin: 0;
@@ -52,6 +56,22 @@
       margin: 0.5rem 0;
       display: inline-block;
     }
+    .chart {
+      width: 100%;
+      max-width: 1000px;
+      height: 600px;
+      margin-top: 2rem;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .disclaimer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #bbb;
+      text-align: center;
+      max-width: 800px;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -73,6 +93,27 @@
       <a href="https://t.me/nh_token" target="_blank">💬 Telegram</a>
       <a href="metadata/info.json" target="_blank">📦 Token Metadata (info.json)</a>
     </div>
+  </div>
+
+  <!-- Chart Embed -->
+  <div class="chart">
+    <iframe 
+      height="100%" 
+      width="100%" 
+      id="geckoterminal-embed" 
+      title="GeckoTerminal Embed" 
+      src="https://www.geckoterminal.com/polygon_pos/pools/0x85c0121d13ac06c87b37d3b0ce5cd91f0d8a5d08?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m" 
+      frameborder="0" 
+      allow="clipboard-write" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    Disclaimer: NH Token is experimental and not financial advice. Please DYOR. Participation is at your own risk.  
+    <br><br>
+    © 2025 NH Token Project | Built on Polygon
   </div>
 </body>
 </html>
